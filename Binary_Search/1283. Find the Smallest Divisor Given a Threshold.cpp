@@ -1,7 +1,9 @@
-// The range of divisor is from 1 to max element of array element!
-// the reason to choose the upper boundary as a max element in the nums because all the divisors greater than equal to the max element will give a result equal to the size of nums!
+// Binary search the answer!
 
-// consider divisor greater than the element present in the array
+// The range of divisor is from 1 to max element of array element!
+// The reason to choose the upper boundary as a max element in the nums because all the divisors greater than equal to the max element will give a result equal to the size of nums!
+
+// Consider divisor greater than the element present in the array
 // example [1,2,5,9]
 // suppose the divisor is 20
 // then
@@ -9,8 +11,8 @@
 // 1+1+1+1=4 that is the size of the nums!
 // The minimum value of the threshold can be the size of the nums!
 
-// To increase the result, Decrease divisor
-// To decrese the result, Increse divisor
+// To increase the result, decrease divisor
+// To decrese the result, increase divisor
 
 // if(result<=threshold)
 // then for sure, this can be a possible result so store it in ans variable
