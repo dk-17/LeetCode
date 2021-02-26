@@ -1,5 +1,5 @@
 // The range of divisor is from 1 to max element of array element!
-// the reason to choose the right boundary as a max element in the nums because all the divisors greater than equal to the max element will give a result equal to the size of nums!
+// the reason to choose the upper boundary as a max element in the nums because all the divisors greater than equal to the max element will give a result equal to the size of nums!
 
 // consider divisor greater than the element present in the array
 // example [1,2,5,9]
